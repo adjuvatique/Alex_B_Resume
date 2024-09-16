@@ -57,11 +57,12 @@ label {
   margin: 10px 0;  
 }  
 
-img {  
-  max-width: 90%;  
-  height: auto;  
-  margin: auto;  
-}  
+img {
+    display: block; /* Убирает пробелы под изображением */
+    max-width: 90%; /* Максимальная ширина 90% от родителя */
+    height: auto; /* Высота автоматически подстраивается */
+    margin: auto; /* Центрирование изображения */
+}
 
 .title {  
   font-size: 2em;  
@@ -84,9 +85,10 @@ img {
 }  
 
 .section_left img {  
-  width: 90px;  
-  height: 90px;  
-  border-radius: 50%;  
+  width: 90px; /* Ширина аватара */
+  height: 90px; /* Высота аватара */
+  border-radius: 50%; /* Круглая форма */
+  object-fit: cover; /* Сохранение пропорций */
 }  
 
 .progress_container {  
@@ -123,7 +125,6 @@ img {
   width: 50%;  
   font-weight: bold;  
 }  
-
 
 @media (max-width: 920px) {  
   .section_left,  
