@@ -35,6 +35,17 @@
       }  
       .skills-column {  
         width: 48%;  
+      }
+      .skills-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .skill-tag {
+        background: #f0f0f0;
+        padding: 5px 10px;
+        border-radius: 15px;
+        font-size: 0.9em;
       }  
     </style>  
   </head>  
@@ -86,13 +97,10 @@
         <!-- About Me -->  
         <h1 class="title">About Me</h1>  
 <p>
-  QA Engineer with practical experience in manual testing of web applications and a strong foundation in quality assurance methodologies. Completed specialized courses in software testing and continuously expanding knowledge through self-education. Proficient in test design techniques and working with the full testing stack for both frontend and backend.
+  QA Engineer with practical experience in manual testing of web and game applications. Strong knowledge of quality assurance methodologies and test documentation creation. Passionate about identifying issues and improving product quality through comprehensive testing approaches.
 </p>
 <p>
-  Experienced in working as the sole QA specialist on projects as well as collaborating within development teams. Skilled in creating test documentation from scratch, including test cases, checklists, and bug reports. Possess fundamental knowledge of test automation with JavaScript and plan to further specialize in automation tools after securing a position.
-</p>
-<p>
-  Key strengths include analytical thinking, attention to detail, and the ability to quickly identify potential issues in software. Committed to ensuring product quality throughout the entire development lifecycle while maintaining effective communication with cross-functional teams.
+  Experienced in working as the sole QA specialist on projects as well as collaborating within development teams. Skilled in creating complete test documentation from scratch. Possess fundamental knowledge of test automation and continuously expanding technical skills.
 </p>
 
         <!-- Work Experience -->  
@@ -100,10 +108,12 @@
         
         <h5><strong>Z-Software</strong> (March 2024 - February 2025)</h5>
         <ul>
-          <li>Performed comprehensive testing of web applications including functional, regression, and UI testing</li>
-          <li>Created and maintained test documentation (test cases, checklists, bug reports)</li>
-          <li>Collaborated with developers to reproduce and resolve reported issues</li>
-          <li>Conducted API testing using Postman and automated test scripts</li>
+          <li>Created comprehensive test documentation including test plans, test cases, checklists, and acceptance documentation from scratch</li>
+          <li>Was responsible for quality assurance of new versions of HWPS game</li>
+          <li>Identified and reported bugs, tracked their resolution through the entire lifecycle</li>
+          <li>Proposed UX/UI improvements that were subsequently implemented by developers</li>
+          <li>Conducted regression testing for each new game build</li>
+          <li>Collaborated with developers to reproduce and resolve complex issues</li>
         </ul>
         
         <h5>Freelance Projects:</h5>
@@ -114,7 +124,6 @@
               <li>Conducted end-to-end testing of user workflows</li>
               <li>Verified data consistency between frontend and backend</li>
               <li>Tested responsive design across multiple devices</li>
-              <li>Created documentation for onboarding new testers</li>
             </ul>
           </li>
           <li>
@@ -122,7 +131,6 @@
             <ul>
               <li>Performed data validation testing for analytics features</li>
               <li>Tested report generation functionality</li>
-              <li>Verified integration with third-party data sources</li>
             </ul>
           </li>
           <li>
@@ -130,7 +138,6 @@
             <ul>
               <li>Conducted security and payment processing testing</li>
               <li>Tested game mechanics and random number generation</li>
-              <li>Verified compliance with responsible gaming features</li>
             </ul>
           </li>
         </ul>
@@ -162,14 +169,14 @@
           >  
         </h5>  
 
-        <!-- Skills -->  
+        <!-- Technical Skills -->  
         <h1 class="title">Technical Skills</h1>  
         <table>  
           <tr>  
-            <td>Manual Testing Techniques</td>  
+            <td>Manual Testing</td>  
             <td>  
               <div class="progress_container">  
-                <div class="progress_bar" style="width: 90%"></div>  
+                <div class="progress_bar" style="width: 95%"></div>  
               </div>  
             </td>  
           </tr>  
@@ -177,7 +184,7 @@
             <td>Test Documentation</td>  
             <td>  
               <div class="progress_container">  
-                <div class="progress_bar" style="width: 85%"></div>  
+                <div class="progress_bar" style="width: 90%"></div>  
               </div>  
             </td>  
           </tr>  
@@ -185,7 +192,7 @@
             <td>SQL & Databases</td>  
             <td>  
               <div class="progress_container">  
-                <div class="progress_bar" style="width: 80%"></div>  
+                <div class="progress_bar" style="width: 85%"></div>  
               </div>  
             </td>  
           </tr>  
@@ -193,43 +200,39 @@
             <td>API Testing</td>  
             <td>  
               <div class="progress_container">  
-                <div class="progress_bar" style="width: 75%"></div>  
-              </div>  
-            </td>  
-          </tr>  
-          <tr>  
-            <td>Test Automation Basics</td>  
-            <td>  
-              <div class="progress_container">  
-                <div class="progress_bar" style="width: 65%"></div>  
+                <div class="progress_bar" style="width: 80%"></div>  
               </div>  
             </td>  
           </tr>  
         </table>  
 
         <!-- Skills Section -->  
-        <h1 class="title">Key Competencies</h1>  
-        <div class="skills-container">  
-          <div class="skills-column">  
-            <ul>  
-              <li>  
-                <strong>Testing Expertise:</strong> Functional, regression, UI, compatibility, and exploratory testing
-              </li>  
-              <li>  
-                <strong>Test Design:</strong> Equivalence partitioning, boundary value analysis, decision tables
-              </li>  
-              <li>  
-                <strong>Tools:</strong> JIRA, Postman, Chrome DevTools, MySQL, Git
-              </li>  
-              <li>  
-                <strong>Process Knowledge:</strong> SDLC, STLC, Agile methodologies
-              </li>  
-              <li>  
-                <strong>Documentation:</strong> Creating test plans, cases, checklists, and bug reports
-              </li>  
-            </ul>  
-          </div>  
-        </div>  
+        <h1 class="title">Skills</h1>  
+        <div class="skills-list">
+          <span class="skill-tag">Manual Testing</span>
+          <span class="skill-tag">Test Documentation</span>
+          <span class="skill-tag">Functional Testing</span>
+          <span class="skill-tag">Regression Testing</span>
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">PostgreSQL</span>
+          <span class="skill-tag">Chrome DevTools</span>
+          <span class="skill-tag">Postman</span>
+          <span class="skill-tag">API Testing</span>
+          <span class="skill-tag">TeamCity</span>
+          <span class="skill-tag">HTML</span>
+          <span class="skill-tag">Unreal Engine</span>
+          <span class="skill-tag">Unity</span>
+          <span class="skill-tag">Confluence</span>
+          <span class="skill-tag">Kibana</span>
+          <span class="skill-tag">Charles Proxy</span>
+          <span class="skill-tag">Jira</span>
+          <span class="skill-tag">TestRail</span>
+          <span class="skill-tag">TestIT</span>
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">Bug Tracking</span>
+          <span class="skill-tag">Test Case Design</span>
+          <span class="skill-tag">Game Testing</span>
+        </div>
 
         <!-- Courses Section -->  
         <h1 class="title">Education & Certifications</h1>  
@@ -240,7 +243,7 @@
             Software Testing 2024 -  
             <a target="_blank" href="https://stepik.org/certificate/9c3c6f7fb57e9f36d6dc5a3667dea80751e28319.png?resolution=medium">Certificate</a>  
           </li>  
-          <li>Ongoing self-education in test automation and advanced QA methodologies</li>
+          <li>Ongoing self-education in QA methodologies and tools</li>
         </ul>  
       </section>  
     </div>  
