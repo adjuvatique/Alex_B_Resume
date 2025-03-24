@@ -1,16 +1,213 @@
 <!DOCTYPE html>  
 <html lang="en">  
-  <!-- [Previous head section remains exactly the same] -->
+  <head>  
+    <link  
+      rel="stylesheet"  
+      href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css"  
+    />  
+    <title>Resume</title>  
+    <meta  
+      name="viewport"  
+      content="width=device-width, initial-scale=1, user-scalable=no"  
+    />  
+    <meta charset="UTF-8" />  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />  
+    <meta name="author" content="Aleksandrs Bilanins" />  
+    <link rel="preconnect" href="https://fonts.gstatic.com" />  
+    <link  
+      rel="stylesheet"  
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Ubuntu&display=swap"  
+    />  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>  
+    <link  
+      rel="stylesheet"  
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"  
+    />  
+    <link rel="stylesheet" href="style.css" />  
+    <style>  
+      .section_left ul {  
+        line-height: 1.2;  
+      }  
+      .skills-container {  
+        display: flex;  
+        justify-content: space-between;  
+      }  
+      .skills-column {  
+        width: 48%;  
+      }
+      .skills-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .skill-tag {
+        background: #f0f0f0;
+        padding: 5px 10px;
+        border-radius: 15px;
+        font-size: 0.9em;
+      }  
+    </style>  
+  </head>  
+
   <body>  
     <div class="container">  
-      <!-- [Left section remains exactly the same] -->  
+      <!-- LEFT SECTION -->  
+      <section class="section_left">  
+        <!-- Photo -->  
+        <img src="photo_2024-08-05_15-34-19.jpg" alt="AUTHOR" />  
+        <!-- Name -->  
+        <h1 class="title">Aleksandrs Bilanins</h1>  
+
+        <!-- Contacts -->  
+        <h5 class="sub-title">Contacts:</h5>  
+        <ul>  
+          <li><i class="fa fa-phone"></i> +7(920)0675413</li>  
+          <li><i class="fa fa-telegram"></i> @adjuvatique</li>  
+          <li><i class="fa fa-envelope"></i> a.bilanins@yahoo.com</li>  
+          <li><i class="fa fa-map-marker"></i> Antrim, Northern Ireland</li>  
+        </ul>  
+
+        <!-- Education -->  
+        <h5 class="sub-title">Education:</h5>  
+        <p><strong>Latvian Academy of Sport Education</strong> (2010)</p>  
+        <p><em>Physiotherapist, Incomplete Higher Education, Bachelor's Degree</em></p>  
+
+        <!-- Languages -->  
+        <h5 class="sub-title">Languages</h5>  
+        <span class="fi fi-ru"></span><label>Russian</label>  
+        <div class="progress_container">  
+          <div class="progress_bar" style="width: 100%"></div>  
+        </div>  
+        <span class="fi fi-gb"></span><label>English</label>  
+        <div class="progress_container">  
+          <div class="progress_bar" style="width: 90%"></div>  
+        </div>  
+        <span class="fi fi-lv"></span><label>Latvian</label>  
+        <div class="progress_container">  
+          <div class="progress_bar" style="width: 85%"></div>  
+        </div>  
+      </section>  
 
       <!-- RIGHT SECTION -->  
       <section class="section_right">  
-        <!-- [Previous sections remain the same until Skills Section] -->  
+        <!-- Profession -->  
+        <h1 class="title QA">QA Engineer</h1>  
+
+        <!-- About Me -->  
+        <h1 class="title">About Me</h1>  
+<p>
+  QA Engineer with practical experience in manual testing of web and game applications. Strong knowledge of quality assurance methodologies and test documentation creation. Passionate about identifying issues and improving product quality through comprehensive testing approaches.
+</p>
+<p>
+  Experienced in working as the sole QA specialist on projects as well as collaborating within development teams. Skilled in creating complete test documentation from scratch. Possess fundamental knowledge of test automation and continuously expanding technical skills.
+</p>
+
+        <!-- Work Experience -->  
+        <h1 class="title">Work Experience</h1>  
+        
+        <h5><strong>Z-Software</strong> (March 2024 - February 2025)</h5>
+        <ul>
+          <li>Created comprehensive test documentation including test plans, test cases, checklists, and acceptance documentation from scratch</li>
+          <li>Was responsible for quality assurance of new versions of HWPS game</li>
+          <li>Identified and reported bugs, tracked their resolution through the entire lifecycle</li>
+          <li>Proposed UX/UI improvements that were subsequently implemented by developers</li>
+          <li>Conducted regression testing for each new game build</li>
+          <li>Collaborated with developers to reproduce and resolve complex issues</li>
+        </ul>
+        
+        <h5>Freelance Projects:</h5>
+        <ul>
+          <li>
+            <strong>Benefactory.ru</strong> - Online portal for employee benefits selection:
+            <ul>
+              <li>Conducted end-to-end testing of user workflows</li>
+              <li>Verified data consistency between frontend and backend</li>
+              <li>Tested responsive design across multiple devices</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Twice UP</strong> - Market analysis platform for IT recruiters:
+            <ul>
+              <li>Performed data validation testing for analytics features</li>
+              <li>Tested report generation functionality</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Turbo-Casino90.gg</strong> - Online casino platform:
+            <ul>
+              <li>Conducted security and payment processing testing</li>
+              <li>Tested game mechanics and random number generation</li>
+            </ul>
+          </li>
+        </ul>
+
+        <!-- Portfolio -->  
+        <h1 class="title">Portfolio</h1>  
+        <h5>  
+          Test Cases -  
+          <a  
+            target="_blank"  
+            href="https://docs.google.com/document/d/1lFOsuNyiHyYhOW5IUAE9zngzcYkyVpAxLDdoz9qpDrA/edit?usp=drive_link"  
+            >link to the document</a  
+          >  
+        </h5>  
+        <h5>  
+          Checklists -  
+          <a  
+            target="_blank"  
+            href="https://docs.google.com/document/d/1N8H-yfyh43WfK1XeEefVxnlPIChEU0NF4znKy2cuE50/edit?usp=drive_link"  
+            >link to the document</a  
+          >  
+        </h5>  
+        <h5>  
+          Bug Reports -  
+          <a  
+            target="_blank"  
+            href="https://docs.google.com/document/d/1rxT4oA4FrAJA16p0TYAzh6asg5X9LGn-5bs8AWgvVx0/edit?usp=drive_link"  
+            >link to the document</a  
+          >  
+        </h5>  
+
+        <!-- Technical Skills -->  
+        <h1 class="title">Technical Skills</h1>  
+        <table>  
+          <tr>  
+            <td>Manual Testing</td>  
+            <td>  
+              <div class="progress_container">  
+                <div class="progress_bar" style="width: 95%"></div>  
+              </div>  
+            </td>  
+          </tr>  
+          <tr>  
+            <td>Test Documentation</td>  
+            <td>  
+              <div class="progress_container">  
+                <div class="progress_bar" style="width: 90%"></div>  
+              </div>  
+            </td>  
+          </tr>  
+          <tr>  
+            <td>SQL & Databases</td>  
+            <td>  
+              <div class="progress_container">  
+                <div class="progress_bar" style="width: 85%"></div>  
+              </div>  
+            </td>  
+          </tr>  
+          <tr>  
+            <td>API Testing</td>  
+            <td>  
+              <div class="progress_container">  
+                <div class="progress_bar" style="width: 80%"></div>  
+              </div>  
+            </td>  
+          </tr>  
+        </table>  
 
         <!-- Skills Section -->  
-        <h1 class="title">Skills</h1>  
+                <h1 class="title">Skills</h1>  
         <div class="skills-list">
           <span class="skill-tag">Manual Testing</span>
           <span class="skill-tag">Test Documentation</span>
@@ -41,7 +238,17 @@
           <span class="skill-tag">Game Testing</span>
         </div>
 
-        <!-- [Rest of the document remains exactly the same] -->
+        <!-- Courses Section -->  
+        <h1 class="title">Education & Certifications</h1>  
+        <ul>  
+          <li>Functional Testing of Software&nbsp;<sup>Artem Rusau</sup></li>  
+          <li>SQL Language Course and Practical Tasks&nbsp;<sup>karpov.courses</sup></li>  
+          <li>  
+            Software Testing 2024 -  
+            <a target="_blank" href="https://stepik.org/certificate/9c3c6f7fb57e9f36d6dc5a3667dea80751e28319.png?resolution=medium">Certificate</a>  
+          </li>  
+          <li>Ongoing self-education in QA methodologies and tools</li>
+        </ul>  
       </section>  
     </div>  
   </body>  
