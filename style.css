@@ -1,139 +1,165 @@
-/* Общие стили */  
-*,  
-*:after,  
-*:before {  
-  box-sizing: border-box;  
-}  
-
-:root {  
-  scrollbar-color: rgb(210, 210, 210) rgb(46, 54, 69) !important;  
-  scrollbar-width: thin !important;  
-}  
-
-body {  
-  margin: 0;  
-  font-family: "Exo 2", sans-serif;  
-}  
-
-a {  
-  text-decoration: none;  
-  cursor: pointer;  
-  transition: 0.5s;  
-}  
-
-ul {  
-  position: relative;  
-  left: -40px;  
-  width: 100%;  
-}  
-
-li {  
-  list-style: none;  
-  margin: 20px 0;  
-  width: 100%;  
-  line-height: 1.4em;  
-}  
-
-.text-line-height {  
-  line-height: 1.4em;  
-}  
-
-.text-bold {  
-  font-weight: bold;  
-}  
-
-/* Элементы */  
-em {  
-  color: #3399ff;  
-  font-weight: 700;  
-  font-size: 0.8em;  
-  display: block;  
-}  
-
-label {  
-  color: #3399ff;  
-  font-weight: 700;  
-  font-size: 0.8em;  
-  margin: 10px 0;  
-}  
-
-img {
-    display: block; /* Убирает пробелы под изображением */
-    max-width: 90%; /* Максимальная ширина 90% от родителя */
-    height: auto; /* Высота автоматически подстраивается */
-    margin: auto; /* Центрирование изображения */
+/* Общие стили */
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
 }
 
-.title {  
-  font-size: 2em;  
-  font-family: "Ubuntu", sans-serif;  
-  font-weight: 700;  
-}  
+:root {
+  scrollbar-color: rgb(210, 210, 210) rgb(46, 54, 69) !important;
+  scrollbar-width: thin !important;
+}
 
-.container {  
-  width: 100%;  
-  position: relative;  
-  margin-bottom: 20px;  
-}  
+body {
+  margin: 0;
+  font-family: "Exo 2", sans-serif;
+  background: #ffffff;
+}
 
-.section_left {  
-  width: 25%;  
-  min-height: 110vh;  
-  padding: 20px;  
-  background: #1b2631;  
-  color: #fff;  
-}  
+a {
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
 
-.section_left img {  
-  width: 90px; /* Ширина аватара */
-  height: 90px; /* Высота аватара */
-  border-radius: 50%; /* Круглая форма */
-  object-fit: cover; /* Сохранение пропорций */
-}  
+a:hover {
+  color: #3399ff;
+  text-decoration: underline;
+}
 
-.progress_container {  
-  width: 90%;  
-  height: 10px;  
-  border-radius: 20px;  
-  background: #1e1e1e;  
-}  
+ul {
+  position: relative;
+  left: -40px;
+  width: 100%;
+}
 
-.progress_bar {  
-  background: #3399ff;  
-  border-radius: 20px;  
-  height: 10px;  
-}  
+li {
+  list-style: none;
+  margin: 20px 0;
+  width: 100%;
+  line-height: 1.4em;
+}
 
-.section_right {  
-  padding: 30px;  
-  width: 75%;  
-  float: right;  
-  position: absolute;  
-  top: 0;  
-  right: 0;  
-}  
+.text-line-height {
+  line-height: 1.4em;
+}
 
-.section_right table {  
-  width: 100%;  
-}  
+.text-bold {
+  font-weight: bold;
+}
 
-.section_right table td {  
-  padding: 10px;  
-}  
+/* Элементы */
+em {
+  color: #3399ff;
+  font-weight: 700;
+  font-size: 0.8em;
+  display: block;
+}
 
-.section_right table td:nth-child(1) {  
-  width: 50%;  
-  font-weight: bold;  
-}  
+label {
+  color: #3399ff;
+  font-weight: 700;
+  font-size: 0.8em;
+  margin: 10px 0;
+}
 
-@media (max-width: 920px) {  
-  .section_left,  
-  .section_right {  
-    width: 100%;  
-    display: block;  
-  }  
+img {
+  display: block;
+  max-width: 90%;
+  height: auto;
+  margin: auto;
+}
 
-  .section_right {  
-    position: static;  
-  }  
+.title {
+  font-size: 2em;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.container {
+  width: 100%;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.section_left {
+  width: 25%;
+  min-height: 110vh;
+  padding: 20px;
+  background: #1b2631;
+  color: #fff;
+}
+
+.section_left img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.progress_container {
+  width: 90%;
+  height: 10px;
+  border-radius: 20px;
+  background: #1e1e1e;
+  margin-bottom: 10px;
+}
+
+.progress_bar {
+  background: #3399ff;
+  border-radius: 20px;
+  height: 10px;
+}
+
+.section_right {
+  padding: 30px;
+  width: 75%;
+  float: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #f9f9f9;
+}
+
+.section_right table {
+  width: 100%;
+}
+
+.section_right table td {
+  padding: 10px;
+}
+
+.section_right table td:nth-child(1) {
+  width: 50%;
+  font-weight: bold;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.skill-tag {
+  background: #e0eaff;
+  color: #003366;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.85em;
+  font-weight: 500;
+}
+
+@media (max-width: 920px) {
+  .section_left,
+  .section_right {
+    width: 100%;
+    display: block;
+  }
+
+  .section_right {
+    position: static;
+  }
 }
